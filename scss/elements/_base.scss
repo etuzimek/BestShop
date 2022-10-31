@@ -3,11 +3,16 @@
 }
 
 body {
-  font-family: var(--font-open-sans);
+  font-family: $font-open-sans;
 }
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  font-family: $font-raleway;
+  font-size: 2.25rem;
 }
 
 .container {
@@ -21,8 +26,8 @@ a {
 }
 
 .logo {
-  font-family: var(--font-raleway);
+  font-family: $font-raleway;
   font-size: 2rem;
   font-weight: 300;
-  color: var(--color-primary);
+  color: $color-primary;
 }
